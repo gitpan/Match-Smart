@@ -1,0 +1,39 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.63.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 cdf3cd32c61a279691a41c24b96aabb7b6c8dfb0 Build.PL
+SHA1 5d2766edace0f8b0cb905a7a73582de56cd4a338 Changes
+SHA1 5ecf683d0174af998b9e210d58e137e1c95448aa LICENSE
+SHA1 96fc50649dd89e3776fdb7d5d82a5686d90af0af MANIFEST
+SHA1 b5defad4b0964583728a2e9e7074b43afe0374fb META.json
+SHA1 bbcc52dc5ee8b223531926bf02a055055323df39 META.yml
+SHA1 5d387b72d58b6ba4d245c25c5b6985091938d927 README
+SHA1 b9fb2c0b1904c1b3249393ae5c9e5f3d3ed87cd4 dist.ini
+SHA1 006140d5e7b51af8713a963fd98f85b4c46a5062 lib/Match/Smart.pm
+SHA1 d4db2a294ee7ee8692bd3189a3dcfabdd5977cf0 lib/Match/Smart/Overload.pm
+SHA1 ff6bf7807766516ecfa647c3e05574508538fa3f lib/Match/Smart/Overload.xs
+SHA1 9e65f3976c7c7eabaeab878d513ff95b38a07776 t/00-compile.t
+SHA1 bfb0818ebd52b553d430103027106b2bbf86fe22 t/10-basics.t
+SHA1 961a1e2c92d836c8cad2d34b784cbc75345dec63 t/release-kwalitee.t
+SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAk3uA+oACgkQTd+EWiaICwolMACeIadmPrs+o9Ib+A4Uvw+wvGQx
+WF8AnRSjqjmV3/rqnZccgcwdwYx4cDtu
+=pgNg
+-----END PGP SIGNATURE-----
